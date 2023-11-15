@@ -1,0 +1,164 @@
+
+.body{
+    background:	#7B68EE;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.header{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header a{
+    color: #f7f7f7;
+    font-size: 20px;
+}
+
+.header a:hover{
+    color: #f7f7f7;
+}
+
+#primeiro{
+    color: #4682B4;
+    text-decoration: none;
+}
+
+
+.modal-body > a{
+    color: #000000;
+    display: block;
+}
+
+.modal-body > a:hover{
+    color: #4682B4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.modal-body > .btn:hover{
+    color: #000000;
+    transition: 0.3s;
+}
+
+.container-main{
+    max-width: 0px;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+.cores h2{
+    color: #f7f7f7;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.cores p{
+    font-size: 23px;
+    font-weight: bold;
+    color: #C0C0C0;
+}
+
+.started{
+    border-radius: 50px;
+    padding: 15px;
+    background: #47b2e4;
+    border: none;
+    color: #f7f7f7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.started:hover{
+    background: #4682B4;
+    transition: 0.3s;
+}
+
+.video{
+    background: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    color: #f7f7f7;
+}
+
+.video:hover{
+    color: #47b2e4;
+    transition: 0.3s;
+}
+
+.cliente{
+    max-width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    filter: grayscale();
+}
+
+.cliente:hover{
+    filter: none;
+    transition: 0.3s;
+}
+
+.section-cliente{
+    background: #f7f7f7;
+}
+
+ul > li{
+    list-style: none;
+}
+ul > img{
+    position: relative;
+    right: 15px;
+    top: 25px;
+}
+
+.cor-primaria{
+    color: #4682B4;
+}
+
+.strong{
+    color: #000000;
+}
+
+
+.card-one::before{
+    content: "01";
+    position: relative;
+    top: 45px;
+    font-weight: bold;
+    left: 5px;
+    color: #4682B4;
+    font-size: 20px;
+}
+
+.card-two::before{
+    content: "02";
+    position: relative;
+    top: 45px;
+    left: 5px;
+    font-weight: bold;
+    color: #4682B4;
+    font-size: 20px;
+}
+
+.card-tree::before{
+    content: "03";
+    position: relative;
+    font-weight: bold;
+    top: 45px;
+    left: 5px;
+    color: #4682B4;
+    font-size: 20px;
+}
+@media(max-width:480px){
+    .container-main{
+        margin-left: 160px;
+    }
+}
+
+@media(max-width:942px){
+    .container-main{
+        margin-left: 60px;
+    }
+}
